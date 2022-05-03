@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Sheng Xu is currently a M.Sc. Student in Department of Computer Science and Engineering ([CSE](https://www.cse.cuhk.edu.hk/)) at the Chinese University of Hong Kong ([CUHK](https://www.cuhk.edu.hk/english/index.html)), supervised by [Prof.Yu Li](https://liyu95.com/). He got his bachelors degree at East China Normal University ([ECNU](https://english.ecnu.edu.cn/)), advised by Prof.Qin Li.
+Sheng Xu is currently a M.Sc. Student at the Department of Computer Science and Engineering ([CSE](https://www.cse.cuhk.edu.hk/)) at the Chinese University of Hong Kong ([CUHK](https://www.cuhk.edu.hk/english/index.html)), supervised by [Prof.Yu Li](https://liyu95.com/). He got his bachelors degree at East China Normal University ([ECNU](https://english.ecnu.edu.cn/)), advised by Prof.Qin Li.
 
 A data-driven personal website
 ======
