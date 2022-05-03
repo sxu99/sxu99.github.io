@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "XU Sheng"
+title                    : "Sheng's page"
 title_separator          : "-"
 name                     : &name "XU Sheng"
 description              : &description "CSE@CUHK"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "XU Sheng"
+  name             : "Sheng Xu（许晟）"
   avatar           : "profile.png"
   bio              : "Master Student @CSE CUHK"
   location         : "Hong Kong"
