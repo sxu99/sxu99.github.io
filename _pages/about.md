@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to my page"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+
+Sheng Xu is currently a M.Sc. Student in Department of Computer Science and Engineering ([CSE](https://www.cse.cuhk.edu.hk/)) at the Chinese University of Hong Kong ([CUHK](https://www.cuhk.edu.hk/english/index.html)), supervised by [Prof.Yu Li](https://liyu95.com/). He got his bachelors degree at East China Normal University ([ECNU](https://english.ecnu.edu.cn/)), advised by Prof.Qin Li.
 
 A data-driven personal website
 ======
