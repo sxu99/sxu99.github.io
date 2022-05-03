@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "XU Sheng"
+title: "Welcome to my page"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
