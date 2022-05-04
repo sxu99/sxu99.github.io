@@ -85,9 +85,9 @@ author:
   bio              : "Master Student @CSE CUHK"
   location         : "Hong Kong"
   employer         :
-  pubmed           : ""
-  googlescholar    : ""
-  email            : "shengxu(AT)link.cuhk.edu.hk"
+  pubmed           : 
+  googlescholar    : 
+  email            : "shengxu@link.cuhk.edu.hk"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -103,13 +103,13 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : ""
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : ""
+  twitter          : 
   vine             :
   weibo            :
   xing             :
