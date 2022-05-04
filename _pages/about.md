@@ -13,7 +13,7 @@ Sheng Xu is currently a M.Sc. Student at the Department of Computer Science and 
 
 Recent news
 ======
-- May 2022, finished my M.Sc. project presentation.
+- May 2022, finished the M.Sc. project presentation.
 - September 2021, begin my study as M.Sc student at CUHK.
 - June 2021, graduated from ECNU.
 
