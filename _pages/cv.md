@@ -9,8 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+[Download CV](https://sxu99.github.io/files/Sheng_Xu_CV.pdf "Sheng's CV")
+
+<!-- Education
 ======
 * B.Eng. in Software Engineering, East China Normal University, 2021
-* M.Sc. in Computer Science, the Chinese University of Hong Kong, 2022
+* M.Sc. in Computer Science, the Chinese University of Hong Kong, 2022 -->
 
