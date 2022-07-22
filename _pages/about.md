@@ -25,4 +25,4 @@ I focus on the intersection between artificial intelligence and biology.
 
 Working Experiences
 ======
-- July 2022 - present, research intern, [Shanghai AI Lab](https://www.shlab.org.cn/).
+- July 2022 - present, research intern, [Shanghai AI Lab](https://www.shlab.org.cn/) (advisor: [Prof. Siqi Sun](https://intersun.github.io/)).
