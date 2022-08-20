@@ -30,5 +30,4 @@ Working Experiences
 Publications (*equal contribution, #corresponding)
 ======
 - 	**Genome-wide nucleotide-resolution model of single-strand break site reveals species evolutionary hierarchy**  
-    **Sheng Xu***, Junkang Wei*#, Yu Li#.  
-    ***arXiv Preprint***, 2022
+    **Sheng Xu***, Junkang Wei*#, Yu Li#. ***arXiv Preprint***, 2022
