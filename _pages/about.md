@@ -33,4 +33,4 @@ Publications (*equal contribution, #corresponding)
     **Sheng Xu\***, Junkang Wei\*#, Yu Li#. ***arXiv Preprint***, 2022.
 
 -   **AcrNET: Predicting Anti-CRISPR with Deep Learning**  
-    Yunxiang Li\*, Yumeng Wei\*, Sheng Xu, Qingxiong Tan, Licheng Zong, Jiuming Wang, Yixuan Wang, Jiayang Chen, Liang Hong, Yu Li#. ***bioRxiv Preprint***, 2022.
+    Yunxiang Li\*, Yumeng Wei\*, **Sheng Xu**, Qingxiong Tan, Licheng Zong, Jiuming Wang, Yixuan Wang, Jiayang Chen, Liang Hong, Yu Li#. ***bioRxiv Preprint***, 2022.
