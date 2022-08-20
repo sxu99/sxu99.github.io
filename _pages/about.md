@@ -27,8 +27,9 @@ Working Experiences
 ======
 - July 2022 - present, research intern, [Shanghai AI Lab](https://www.shlab.org.cn/) (advisor: [Prof. Siqi Sun](https://intersun.github.io/)).
 
-Publications (*equal contribution, #corresponding)
+Publications 
 ======
+(\*equal contribution, #corresponding)
 - 	**Genome-wide nucleotide-resolution model of single-strand break site reveals species evolutionary hierarchy**  
     **Sheng Xu\***, Junkang Wei\*#, Yu Li#. ***arXiv Preprint***, 2022.
 
