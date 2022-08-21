@@ -31,7 +31,9 @@ Publications
 ======
 (\*equal contribution, #corresponding)
 - 	**Genome-wide nucleotide-resolution model of single-strand break site reveals species evolutionary hierarchy**  
-    **Sheng Xu\***, Junkang Wei\*#, Yu Li#. ***arXiv Preprint***, 2022.
+    **Sheng Xu\***, Junkang Wei\*#, Yu Li#. ***arXiv Preprint***, 2022.  
+    \[[Server](https://proj.cse.cuhk.edu.hk/aihlab/ssblazer/)\] \[[Code](https://github.com/sxu99/ssblazer)\]
 
 -   **AcrNET: Predicting Anti-CRISPR with Deep Learning**  
-    Yunxiang Li\*, Yumeng Wei\*, **Sheng Xu**, Qingxiong Tan, Licheng Zong, Jiuming Wang, Yixuan Wang, Jiayang Chen, Liang Hong, Yu Li#. ***bioRxiv Preprint***, 2022.
+    Yunxiang Li\*, Yumeng Wei\*, **Sheng Xu**, Qingxiong Tan, Licheng Zong, Jiuming Wang, Yixuan Wang, Jiayang Chen, Liang Hong, Yu Li#. ***bioRxiv Preprint***, 2022.  
+    \[[Server](https://proj.cse.cuhk.edu.hk/aihlab/acrnet/)\] \[[Code](https://github.com/banma12956/AcrNET)\]
