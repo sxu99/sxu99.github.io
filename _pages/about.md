@@ -37,4 +37,4 @@ Publications
 
 -   **AcrNET: Predicting Anti-CRISPR with Deep Learning**  
     Yunxiang Li\*, Yumeng Wei\*, **Sheng Xu**, Qingxiong Tan, Licheng Zong, Jiuming Wang, Yixuan Wang, Jiayang Chen, Liang Hong, Yu Li#. ***bioRxiv Preprint***, 2022.  
-    \[[Server](https://proj.cse.cuhk.edu.hk/aihlab/acrnet/)\] \[[Code](https://github.com/banma12956/AcrNET)\]
+    \[[Preprint](https://www.biorxiv.org/content/10.1101/2022.04.02.486820v2)\] \[[Server](https://proj.cse.cuhk.edu.hk/aihlab/acrnet/)\] \[[Code](https://github.com/banma12956/AcrNET)\]
