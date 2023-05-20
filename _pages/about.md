@@ -31,6 +31,10 @@ Working Experiences
 Publications 
 ======
 (\*equal contribution, #corresponding)
+- 	**AF2-Mutation: Adversarial Sequence Mutations against AlphaFold2 on Protein Tertiary Structure Prediction**  
+    Zhongju Yuan, Tao Shen, **Sheng Xu**, Leiye Yu, Ruobing Ren#, Siqi Sun#. ***arXiv Preprint***, 2023.  
+    \[[Preprint](https://arxiv.org/abs/2305.08929)\] 
+    
 - 	**Genome-wide nucleotide-resolution model of single-strand break site reveals species evolutionary hierarchy**  
     **Sheng Xu\***, Junkang Wei\*#, Yu Li#. ***arXiv Preprint***, 2022.  
     \[[Preprint](https://arxiv.org/abs/2208.09813)\] \[[Server](https://proj.cse.cuhk.edu.hk/aihlab/ssblazer/)\] \[[Code](https://github.com/sxu99/ssblazer)\]
