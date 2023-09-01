@@ -31,6 +31,10 @@ Working Experiences
 Publications 
 ======
 (\*equal contribution, #corresponding)
+- 	**Accurate Prediction of Antibody Function and Structure Using Bio-Inspired Antibody Language Model**  
+    Hongtai Jing*, Zhengtao Gao*, **Sheng Xu**, Tao Shen, Zhangzhi Peng, Shwai He, Tao You, Shuang Ye#, Wei Lin#, Siqi Sun#. ***arXiv Preprint***, 2023.  
+    \[[Preprint](https://arxiv.org/abs/2308.16713)\] 
+
 - 	**AF2-Mutation: Adversarial Sequence Mutations against AlphaFold2 on Protein Tertiary Structure Prediction**  
     Zhongju Yuan, Tao Shen, **Sheng Xu**, Leiye Yu, Ruobing Ren#, Siqi Sun#. ***arXiv Preprint***, 2023.  
     \[[Preprint](https://arxiv.org/abs/2305.08929)\] 
