@@ -9,10 +9,11 @@ redirect_from:
 ---
 
 
-Sheng Xu is currently a research intern at [Shanghai AI Lab](https://www.shlab.org.cn/), advised by [Prof. Siqi Sun](https://intersun.github.io/). Before that, he obtained his masters degree at the Department of Computer Science and Engineering ([CSE](https://www.cse.cuhk.edu.hk/)) at the Chinese University of Hong Kong ([CUHK](https://www.cuhk.edu.hk/english/index.html)), supervised by [Prof. Yu Li](https://liyu95.com/). He did his bachelors at East China Normal University ([ECNU](https://english.ecnu.edu.cn/)), advised by Prof. Qin Li.
+Sheng Xu is currently a PhD student at [Fudan University](https://www.fudan.edu.cn/en/), advised by [Prof. Siqi Sun](https://intersun.github.io/). Before that, he obtained his masters degree at the Department of Computer Science and Engineering ([CSE](https://www.cse.cuhk.edu.hk/)) at the Chinese University of Hong Kong ([CUHK](https://www.cuhk.edu.hk/english/index.html)), supervised by [Prof. Yu Li](https://liyu95.com/). He did his bachelors at East China Normal University ([ECNU](https://english.ecnu.edu.cn/)), advised by Prof. Qin Li.
 
 Recent News
 ======
+- September 2023, begin Ph.D. study at IICS, Fudan University.
 - November 2022, graduated from CUHK.
 - July 2022, join [Shanghai AI Lab](https://www.shlab.org.cn/) as research intern, advised by [Prof. Siqi Sun](https://intersun.github.io/).
 - May 2022, finished the M.Sc. project presentation.
@@ -21,12 +22,7 @@ Recent News
 
 Research Interests
 ======
-I focus on the intersection between artificial intelligence and biology. 
-
-
-Working Experiences
-======
-- July 2022 - present, research intern, [Shanghai AI Lab](https://www.shlab.org.cn/) (advisor: [Prof. Siqi Sun](https://intersun.github.io/)).
+My research is centered on the integration of artificial intelligence with molecular biology. Specifically, I focus on the study of RNA-pritein interaction, noncoding RNA and precision medicine like T cell therapy. My objective is to leverage the power of AI to better understand these complex biological phenomena and to develop innovative, tailored therapeutics for disease treatment.
 
 Publications 
 ======
