@@ -16,9 +16,6 @@ Recent News
 - September 2023, begin Ph.D. study at IICS, Fudan University.
 - November 2022, graduated from CUHK.
 - July 2022, join [Shanghai AI Lab](https://www.shlab.org.cn/) as research intern, advised by [Prof. Siqi Sun](https://intersun.github.io/).
-<!-- - May 2022, finished the M.Sc. project presentation.
-- September 2021, begin my study as M.Sc. student at CUHK.
-- June 2021, graduated from ECNU. -->
 
 Research Interests
 ======
