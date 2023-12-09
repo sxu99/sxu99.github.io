@@ -13,6 +13,7 @@ Sheng Xu is currently a PhD student at [Fudan University](https://www.fudan.edu.
 
 Recent News
 ======
+- December 2023, two papers are accepted by AAAI-24🎉!
 - September 2023, begin Ph.D. study at IICS, Fudan University.
 - November 2022, graduated from CUHK.
 - July 2022, join [Shanghai AI Lab](https://www.shlab.org.cn/) as research intern, advised by [Prof. Siqi Sun](https://intersun.github.io/).
