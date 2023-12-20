@@ -25,6 +25,14 @@ My research is centered on the integration of artificial intelligence with molec
 Publications 
 ======
 (\*equal contribution, #corresponding)
+- 	**CrossBind: Collaborative Cross-Modal Identification of Protein Nucleic-Acid-Binding Residues**  
+    Linglin Jing\*, **Sheng Xu\***, Yifan Wang, Yuzhe Zhou, Tao Shen, Zhigang Ji, Hui Fang, Zhen Li#, Siqi Sun#. ***AAAI-24 (Accepted)***, 2023.  
+    \[[Preprint](https://arxiv.org/abs/2312.12094)\]  \[[Code](https://github.com/BEAM-Labs/CrossBind)\]
+
+- 	**ContraNovo: A Contrastive Learning Approach to Enhance De Novo Peptide Sequencing**  
+    Zhi Jin\*, **Sheng Xu\***, Xiang Zhang\*, Tianze Ling, Nanqing Dong, Wanli Ouyang#, Zhiqiang Gao#, Cheng Chang#, Siqi Sun#. ***AAAI-24 (Accepted)***, 2023.  
+    \[[Preprint](https://arxiv.org/abs/2312.11584)\]  \[[Code](https://github.com/BEAM-Labs/ContraNovo)\]
+
 - 	**Accurate Prediction of Antibody Function and Structure Using Bio-Inspired Antibody Language Model**  
     Hongtai Jing\*, Zhengtao Gao\*, **Sheng Xu**, Tao Shen, Zhangzhi Peng, Shwai He, Tao You, Shuang Ye#, Wei Lin#, Siqi Sun#. ***arXiv Preprint***, 2023.  
     \[[Preprint](https://arxiv.org/abs/2308.16713)\] 
