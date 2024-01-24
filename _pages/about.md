@@ -13,15 +13,13 @@ Sheng Xu is currently a PhD student at [Fudan University](https://www.fudan.edu.
 
 Recent News
 ======
-- January 2024, [SSBlazer](https://proj.cse.cuhk.edu.hk/aihlab/ssblazer/) is accepted by Genome Biology (**IF=12.3**)🎉!
+- January 2024, [SSBlazer](https://proj.cse.cuhk.edu.hk/aihlab/ssblazer/) is accepted by **Genome Biology (IF=12.3)**🎉!
 - December 2023, two papers are accepted by AAAI-24🎉!
 - September 2023, begin Ph.D. study at IICS, Fudan University.
-- November 2022, graduated from CUHK.
-- July 2022, join [Shanghai AI Lab](https://www.shlab.org.cn/) as research intern, advised by [Prof. Siqi Sun](https://intersun.github.io/).
 
 Research Interests
 ======
-My research is centered on the integration of artificial intelligence with molecular biology. Specifically, I focus on the study of RNA-pritein interaction, noncoding RNA and precision medicine like T cell therapy. My objective is to leverage the power of AI to better understand these complex biological phenomena and to develop innovative, tailored therapeutics for disease treatment.
+My research is centered on the integration of artificial intelligence with molecular biology. Specifically, I focus on the study of RNA-protein interaction, noncoding RNA and precision medicine like T cell therapy. My objective is to leverage the power of AI to better understand these complex biological phenomena and to develop innovative, tailored therapeutics for disease treatment.
 
 Publications 
 ======
