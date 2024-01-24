@@ -13,6 +13,7 @@ Sheng Xu is currently a PhD student at [Fudan University](https://www.fudan.edu.
 
 Recent News
 ======
+- January 2024, [SSBlazer](https://proj.cse.cuhk.edu.hk/aihlab/ssblazer/) is accepted by Genome Biology (**IF=12.3**)🎉!
 - December 2023, two papers are accepted by AAAI-24🎉!
 - September 2023, begin Ph.D. study at IICS, Fudan University.
 - November 2022, graduated from CUHK.
@@ -25,6 +26,11 @@ My research is centered on the integration of artificial intelligence with molec
 Publications 
 ======
 (\*equal contribution, #corresponding)
+    
+- 	**SSBlazer: A genome-wide nucleotide-resolution model for predicting single-strand break sites**  
+    **Sheng Xu\***, Junkang Wei\*#, Siqi Sun, Jizhou Zhang, Ting-Fung Chan, Yu Li#. ***Genome Biology (Accepted)***, 2024.  
+    \[[Preprint](https://arxiv.org/abs/2208.09813)\] \[[Server](https://proj.cse.cuhk.edu.hk/aihlab/ssblazer/)\] \[[Code](https://github.com/sxu99/ssblazer)\]
+
 - 	**CrossBind: Collaborative Cross-Modal Identification of Protein Nucleic-Acid-Binding Residues**  
     Linglin Jing\*, **Sheng Xu\***, Yifan Wang, Yuzhe Zhou, Tao Shen, Zhigang Ji, Hui Fang, Zhen Li#, Siqi Sun#. ***AAAI-24 (Accepted)***, 2023.  
     \[[Preprint](https://arxiv.org/abs/2312.12094)\]  \[[Code](https://github.com/BEAM-Labs/CrossBind)\]
@@ -40,10 +46,6 @@ Publications
 - 	**AF2-Mutation: Adversarial Sequence Mutations against AlphaFold2 on Protein Tertiary Structure Prediction**  
     Zhongju Yuan, Tao Shen, **Sheng Xu**, Leiye Yu, Ruobing Ren#, Siqi Sun#. ***arXiv Preprint***, 2023.  
     \[[Preprint](https://arxiv.org/abs/2305.08929)\] 
-    
-- 	**Genome-wide nucleotide-resolution model of single-strand break site reveals species evolutionary hierarchy**  
-    **Sheng Xu\***, Junkang Wei\*#, Yu Li#. ***arXiv Preprint***, 2022.  
-    \[[Preprint](https://arxiv.org/abs/2208.09813)\] \[[Server](https://proj.cse.cuhk.edu.hk/aihlab/ssblazer/)\] \[[Code](https://github.com/sxu99/ssblazer)\]
 
 -   **AcrNET: Predicting Anti-CRISPR with Deep Learning**  
     Yunxiang Li\*, Yumeng Wei\*, **Sheng Xu**, Qingxiong Tan, Licheng Zong, Jiuming Wang, Yixuan Wang, Jiayang Chen, Liang Hong, Yu Li#. ***Bioinformatics***, 2023.  
