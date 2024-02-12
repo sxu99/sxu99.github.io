@@ -26,8 +26,8 @@ Publications
 (\*equal contribution, #corresponding)
     
 - 	**SSBlazer: A genome-wide nucleotide-resolution model for predicting single-strand break sites**  
-    **Sheng Xu\***, Junkang Wei\*#, Siqi Sun, Jizhou Zhang, Ting-Fung Chan, Yu Li#. ***Genome Biology (Accepted)***, 2024.  
-    \[[Preprint](https://arxiv.org/abs/2208.09813)\] \[[Server](https://proj.cse.cuhk.edu.hk/aihlab/ssblazer/)\] \[[Code](https://github.com/sxu99/ssblazer)\]
+    **Sheng Xu\***, Junkang Wei\*#, Siqi Sun, Jizhou Zhang, Ting-Fung Chan, Yu Li#. ***Genome Biology***, 2024.  
+    \[[Paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03179-w)\] \[[Server](https://proj.cse.cuhk.edu.hk/aihlab/ssblazer/)\] \[[Code](https://github.com/sxu99/ssblazer)\]
 
 - 	**CrossBind: Collaborative Cross-Modal Identification of Protein Nucleic-Acid-Binding Residues**  
     Linglin Jing\*, **Sheng Xu\***, Yifan Wang, Yuzhe Zhou, Tao Shen, Zhigang Ji, Hui Fang, Zhen Li#, Siqi Sun#. ***AAAI-24 (Accepted)***, 2023.  
