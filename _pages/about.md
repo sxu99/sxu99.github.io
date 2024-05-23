@@ -23,6 +23,13 @@ My research is centered on the integration of artificial intelligence with molec
 Publications 
 ======
 (\*equal contribution, #corresponding)
+- 	**Pi-PrimeNovo: An Accurate and Efficient Non-Autoregressive Deep Learning Model for De Novo Peptide Sequencing**  
+    Xiang Zhang\*,  Tianze Ling\*, Zhi Jin\*, **Sheng Xu\***, Zhiqiang Gao, Boyan Sun, Zijie Qiu, Nanqing Dong, Guangshuai Wang, Guibin Wang, Leyuan Li, Muhammad Abdul Mageed, Laks V.S. Lakshmanan, Wanli Ouyang#, Cheng Chang#, Siqi Sun#.  ***bioRxiv Preprint***, 2024.  
+    \[[Preprint](https://www.biorxiv.org/content/10.1101/2024.05.17.594647v1)\] 
+
+- 	**Accurate Prediction of Antibody Function and Structure Using Bio-Inspired Antibody Language Model**  
+    Hongtai Jing, Zhengtao Gao, **Sheng Xu**, Tao Shen, Zhangzhi Peng, Shwai He, Tao You, Shuang Ye#, Wei Lin#, Siqi Sun#. ***Briefings In Bioinformatics***, 2024.  
+    \[[Paper](https://doi.org/10.1093/bib/bbae245)\] 
     
 - 	**SSBlazer: A genome-wide nucleotide-resolution model for predicting single-strand break sites**  
     **Sheng Xu\***, Junkang Wei\*#, Siqi Sun, Jizhou Zhang, Ting-Fung Chan, Yu Li#. ***Genome Biology***, 2024.  
@@ -36,9 +43,6 @@ Publications
     Zhi Jin\*, **Sheng Xu\***, Xiang Zhang\*, Tianze Ling, Nanqing Dong, Wanli Ouyang#, Zhiqiang Gao#, Cheng Chang#, Siqi Sun#. ***AAAI-24 (Accepted)***, 2023.  
     \[[Preprint](https://arxiv.org/abs/2312.11584)\]  \[[Code](https://github.com/BEAM-Labs/ContraNovo)\]
 
-- 	**Accurate Prediction of Antibody Function and Structure Using Bio-Inspired Antibody Language Model**  
-    Hongtai Jing\*, Zhengtao Gao\*, **Sheng Xu**, Tao Shen, Zhangzhi Peng, Shwai He, Tao You, Shuang Ye#, Wei Lin#, Siqi Sun#. ***arXiv Preprint***, 2023.  
-    \[[Preprint](https://arxiv.org/abs/2308.16713)\] 
 
 - 	**AF2-Mutation: Adversarial Sequence Mutations against AlphaFold2 on Protein Tertiary Structure Prediction**  
     Zhongju Yuan, Tao Shen, **Sheng Xu**, Leiye Yu, Ruobing Ren#, Siqi Sun#. ***arXiv Preprint***, 2023.  
