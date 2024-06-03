@@ -23,6 +23,10 @@ My research is centered on the integration of artificial intelligence with molec
 Publications 
 ======
 (\*equal contribution, #corresponding)
+- 	**RTM-align: an improved RNA alignment tool with enhanced short sequence performance via post-standardization and fragment alignment**  
+    Zijie Qiu\*, **Sheng Xu\***, Junkang Wei, Tao Shen, Siqi Sun#.  ***bioRxiv Preprint***, 2024.  
+    \[[Preprint](https://www.biorxiv.org/content/10.1101/2024.05.27.595311v1)\] 
+
 - 	**Pi-PrimeNovo: An Accurate and Efficient Non-Autoregressive Deep Learning Model for De Novo Peptide Sequencing**  
     Xiang Zhang\*,  Tianze Ling\*, Zhi Jin\*, **Sheng Xu\***, Zhiqiang Gao, Boyan Sun, Zijie Qiu, Nanqing Dong, Guangshuai Wang, Guibin Wang, Leyuan Li, Muhammad Abdul Mageed, Laks V.S. Lakshmanan, Wanli Ouyang#, Cheng Chang#, Siqi Sun#.  ***bioRxiv Preprint***, 2024.  
     \[[Preprint](https://www.biorxiv.org/content/10.1101/2024.05.17.594647v1)\] 
@@ -36,11 +40,11 @@ Publications
     \[[Paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03179-w)\] \[[Server](https://proj.cse.cuhk.edu.hk/aihlab/ssblazer/)\] \[[Code](https://github.com/sxu99/ssblazer)\]
 
 - 	**CrossBind: Collaborative Cross-Modal Identification of Protein Nucleic-Acid-Binding Residues**  
-    Linglin Jing\*, **Sheng Xu\***, Yifan Wang, Yuzhe Zhou, Tao Shen, Zhigang Ji, Hui Fang, Zhen Li#, Siqi Sun#. ***AAAI-24 (Accepted)***, 2023.  
+    Linglin Jing\*, **Sheng Xu\***, Yifan Wang, Yuzhe Zhou, Tao Shen, Zhigang Ji, Hui Fang, Zhen Li#, Siqi Sun#. ***AAAI-24***, 2024.  
     \[[Preprint](https://arxiv.org/abs/2312.12094)\]  \[[Code](https://github.com/BEAM-Labs/CrossBind)\]
 
 - 	**ContraNovo: A Contrastive Learning Approach to Enhance De Novo Peptide Sequencing**  
-    Zhi Jin\*, **Sheng Xu\***, Xiang Zhang\*, Tianze Ling, Nanqing Dong, Wanli Ouyang#, Zhiqiang Gao#, Cheng Chang#, Siqi Sun#. ***AAAI-24 (Accepted)***, 2023.  
+    Zhi Jin\*, **Sheng Xu\***, Xiang Zhang\*, Tianze Ling, Nanqing Dong, Wanli Ouyang#, Zhiqiang Gao#, Cheng Chang#, Siqi Sun#. ***AAAI-24***, 2024.  
     \[[Preprint](https://arxiv.org/abs/2312.11584)\]  \[[Code](https://github.com/BEAM-Labs/ContraNovo)\]
 
 
