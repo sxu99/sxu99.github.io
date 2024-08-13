@@ -23,6 +23,10 @@ My research is centered on the integration of artificial intelligence with molec
 Publications 
 ======
 (\*equal contribution, #corresponding)
+- 	**Fast, sensitive detection of protein homologs using deep dense retrieval**  
+    Liang Hong\*, Zhihang Hu\*, Siqi Sun\*#, Xiangru Tang\*, Jiuming Wang, Qingxiong Tan, Liangzhen Zheng, Sheng Wang, **Sheng Xu**, Irwin King, Mark Gerstein#, Yu Li#.  ***Nature Biotechnology***, 2024.  
+    \[[Paper](https://www.nature.com/articles/s41587-024-02353-6)\] 
+
 - 	**RTM-align: an improved RNA alignment tool with enhanced short sequence performance via post-standardization and fragment alignment**  
     Zijie Qiu\*, **Sheng Xu\***, Junkang Wei, Tao Shen, Siqi Sun#.  ***bioRxiv Preprint***, 2024.  
     \[[Preprint](https://www.biorxiv.org/content/10.1101/2024.05.27.595311v1)\] 
