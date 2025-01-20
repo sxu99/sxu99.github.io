@@ -12,9 +12,8 @@ Sheng Xu is currently a PhD student at [Fudan University](https://www.fudan.edu.
 
 Recent News
 ======
-- January 2024, [SSBlazer](https://proj.cse.cuhk.edu.hk/aihlab/ssblazer/) is accepted by **Genome Biology (IF=12.3)**🎉!
-- December 2023, two papers are accepted by AAAI-24🎉!
-- September 2023, begin Ph.D. study at IICS, Fudan University.
+- January 2025, [π-PrimeNovo](https://www.nature.com/articles/s41467-024-55021-3) is accepted by **Nature Communications**🎉!
+- January 2024, [SSBlazer](https://proj.cse.cuhk.edu.hk/aihlab/ssblazer/) is accepted by **Genome Biology**🎉!
 
 Research Interests
 ======
@@ -23,17 +22,23 @@ My research is centered on the integration of artificial intelligence with molec
 Publications 
 ======
 (\*equal contribution, #corresponding)
+
+
+- 	**π-PrimeNovo: an accurate and efficient non-autoregressive deep learning model for de novo peptide sequencing**  
+    Xiang Zhang\*, Tianze Ling\*, Zhi Jin\*, **Sheng Xu\***, Zhiqiang Gao, Boyan Sun, Zijie Qiu, Jiaqi Wei, Nanqing Dong, Guangshuai Wang, Guibin Wang, Leyuan Li, Muhammad Abdul-Mageed, Laks V. S. Lakshmanan, Fuchu He, Wanli Ouyang#, Cheng Chang# & Siqi Sun#   ***Nature Communications***, 2025.  
+    \[[Paper](https://www.nature.com/articles/s41467-024-55021-3)\] 
+    
 - 	**Fast, sensitive detection of protein homologs using deep dense retrieval**  
     Liang Hong\*, Zhihang Hu\*, Siqi Sun\*#, Xiangru Tang\*, Jiuming Wang, Qingxiong Tan, Liangzhen Zheng, Sheng Wang, **Sheng Xu**, Irwin King, Mark Gerstein#, Yu Li#.  ***Nature Biotechnology***, 2024.  
     \[[Paper](https://www.nature.com/articles/s41587-024-02353-6)\] 
+    
+- 	**BEACON: Benchmark for Comprehensive RNA Tasks and Language Models**  
+    Yuchen Ren, Zhiyuan Chen, Lifeng Qiao, Hongtai Jing, Yuchen Cai, **Sheng Xu**, Peng Ye, Xinzhu Ma, Siqi Sun, Hongliang Yan, Dong Yuan, Wanli Ouyang, Xihui Liu. ***NeurIPS 2024***, 2024.  
+    \[[Preprint](https://www.biorxiv.org/content/10.1101/2024.06.22.600190v1)\] 
 
 - 	**RTM-align: an improved RNA alignment tool with enhanced short sequence performance via post-standardization and fragment alignment**  
     Zijie Qiu\*, **Sheng Xu\***, Junkang Wei, Tao Shen, Siqi Sun#.  ***bioRxiv Preprint***, 2024.  
     \[[Preprint](https://www.biorxiv.org/content/10.1101/2024.05.27.595311v1)\] 
-
-- 	**Pi-PrimeNovo: An Accurate and Efficient Non-Autoregressive Deep Learning Model for De Novo Peptide Sequencing**  
-    Xiang Zhang\*,  Tianze Ling\*, Zhi Jin\*, **Sheng Xu\***, Zhiqiang Gao, Boyan Sun, Zijie Qiu, Nanqing Dong, Guangshuai Wang, Guibin Wang, Leyuan Li, Muhammad Abdul Mageed, Laks V.S. Lakshmanan, Wanli Ouyang#, Cheng Chang#, Siqi Sun#.  ***bioRxiv Preprint***, 2024.  
-    \[[Preprint](https://www.biorxiv.org/content/10.1101/2024.05.17.594647v1)\] 
 
 - 	**Accurate Prediction of Antibody Function and Structure Using Bio-Inspired Antibody Language Model**  
     Hongtai Jing, Zhengtao Gao, **Sheng Xu**, Tao Shen, Zhangzhi Peng, Shwai He, Tao You, Shuang Ye#, Wei Lin#, Siqi Sun#. ***Briefings In Bioinformatics***, 2024.  
