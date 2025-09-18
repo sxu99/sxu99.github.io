@@ -57,6 +57,7 @@
     html, body { height: 100%; }
     body {
       margin: 0; 
+      padding-top: 64px;
       font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
       background: var(--bg); 
       color: var(--text);
@@ -119,13 +120,21 @@
     .skip:focus { left:1rem; top:1rem; width:auto; height:auto; padding:.5rem .75rem; background: var(--accent); color:white; border-radius:.5rem; z-index:999; }
 
     header.nav {
-      position: sticky; 
+      position: fixed; 
       top: 0; 
+      left: 0;
+      right: 0;
       backdrop-filter: saturate(160%) blur(8px);
-      background: color-mix(in oklab, var(--bg) 90%, transparent); 
+      background: rgba(255, 255, 255, 0.95);
       border-bottom: 1px solid var(--soft);
-      z-index: 50;
+      z-index: 1000;
+      width: 100%;
     }
+    [data-theme="dark"] header.nav {
+      background: rgba(11, 13, 16, 0.95);
+    }
+    
+
     .nav-inner { display:flex; align-items:center; justify-content:space-between; height: 64px; }
     .brand { font-weight: 700; letter-spacing: .2px; font-size: 1.1rem; }
     .nav-links { display:flex; gap:1rem; align-items:center; }
@@ -634,7 +643,7 @@
 
     <!-- ===== Publications ===== -->
     <section id="publications" aria-labelledby="pubs-h">
-      <h2 id="pubs-h">Selected Publications</h2>
+      <h2 id="pubs-h">Publications</h2>
       <ol class="list">
 
         <li class="card pub">
@@ -779,6 +788,13 @@
     <section id="preprints" aria-labelledby="preprints-h">
       <h2 id="preprints-h">Preprints & Working Papers</h2>
       <ol class="list">
+        <li class="card pub">
+          <div>
+            <div class="pub-title"><a>A genome-scale language model uncovers animal viruses with zoonotic potential</a></div>
+            <div class="authors"><strong>S. Xu</strong>, et al.</div>
+            <div class="pub-venue">Submitted, 2025</div>
+          </div>
+        </li>
         <li class="card pub">
           <div>
             <div class="pub-title"><a href="https://arxiv.org/abs/2508.02137" target="_blank" rel="noopener">Fitness aligned structural modeling enables scalable virtual screening with AuroBind</a></div>
