@@ -1,0 +1,894 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+
+  <title>Sheng Xu | Fudan University</title>
+  <meta name="title" content="Sheng Xu | Fudan University"/>
+  <meta name="description" content="PhD student at Fudan University. Research interests include AI for molecular biology, computational virology, and language models."/>
+  <link rel="canonical" href="https://sxu99.github.io/"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="theme-color" content="#111111"/>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sheng Xu | Fudan University</title>
+  <meta name="description" content="Sheng Xu is a PhD student at Fudan University. His research interests include AI for molecular biology, computational virology, and language models." />
+  <meta name="color-scheme" content="light dark" />
+  <meta property="og:title" content="Sheng Xu | Fudan University" />
+  <meta property="og:description" content="Sheng Xu is a PhD student at Fudan University. His research interests include AI for molecular biology, computational virology, and language models." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="" />
+  <meta name="theme-color" content="#0b766e" />
+  <!--
+    Academic homepage optimized for clarity, professionalism, and mobile responsiveness.
+    Features clean design with teal accent color, avoiding blue/purple backgrounds.
+  -->
+  <style>
+    /* ====== Design tokens ====== */
+    :root {
+      --bg: #ffffff;
+      --text: #0f172a;       /* slate-900 */
+      --muted: #475569;      /* slate-600 */
+      --soft: #e2e8f0;       /* slate-200 */
+      --card: #f8fafc;       /* slate-50  */
+      --accent: #0ea5a3;     /* teal-500  */
+      --accent-ink: #062b29; /* deep teal */
+      --ring: rgba(14,165,163,0.3);
+      --code-bg: #0f172a;
+      --code-fg: #e2e8f0;
+      --shadow: rgba(0,0,0,0.05);
+    }
+    [data-theme="dark"] {
+      --bg: #0b0d10;
+      --text: #e5e7eb;       /* zinc-200 */
+      --muted: #9aa1aa;      /* zinc-400 */
+      --soft: #1f2937;       /* slate-800 */
+      --card: #0f1317;       /* near-black */
+      --accent: #10b981;     /* emerald-500 */
+      --accent-ink: #052c1e;
+      --ring: rgba(16,185,129,0.35);
+      --code-bg: #0b0d10;
+      --code-fg: #d1d5db;
+      --shadow: rgba(0,0,0,0.1);
+    }
+
+    /* ====== Base ====== */
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0; 
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: var(--bg); 
+      color: var(--text);
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+      line-height: 1.6;
+    }
+    .container { width: min(1100px, 92vw); margin: 0 auto; }
+    a { color: var(--accent); text-decoration: none; transition: color 0.2s ease; }
+    a:hover { text-decoration: underline; }
+    .muted { color: var(--muted); }
+    .chip { 
+      display:inline-block; 
+      padding: .35rem .6rem; 
+      border-radius: 999px; 
+      border:1px solid var(--soft); 
+      background: transparent; 
+      font-size:.85rem; 
+      margin:.2rem .25rem .2rem 0; 
+      transition: all 0.2s ease;
+    }
+    .chip:hover { background: var(--soft); }
+    .btn { 
+      display:inline-flex; 
+      align-items:center; 
+      gap:.5rem; 
+      border-radius: .75rem; 
+      padding: .7rem 1rem; 
+      border:1px solid var(--soft); 
+      background: var(--card); 
+      color: inherit; 
+      text-decoration:none; 
+      box-shadow: 0 0 0 0 var(--ring); 
+      transition: all .2s ease; 
+      font-weight: 500;
+    }
+    .btn:hover { 
+      text-decoration:none; 
+      box-shadow: 0 0 0 4px var(--ring); 
+      transform: translateY(-1px);
+    }
+    .btn:active { transform: translateY(0px); }
+    .btn.primary { background: var(--accent); color: white; border-color: transparent; }
+
+    .card { 
+      background: var(--card); 
+      border:1px solid var(--soft); 
+      border-radius: 1rem; 
+      padding: 1.25rem; 
+      box-shadow: 0 1px 3px var(--shadow);
+      transition: box-shadow 0.2s ease;
+    }
+    .card:hover { box-shadow: 0 4px 12px var(--shadow); }
+    .grid { display:grid; gap: 1.25rem; }
+    .grid.two { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    .grid.three { grid-template-columns: repeat(3, minmax(0,1fr)); }
+    
+    /* ====== Header & Nav ====== */
+    .skip { position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden; }
+    .skip:focus { left:1rem; top:1rem; width:auto; height:auto; padding:.5rem .75rem; background: var(--accent); color:white; border-radius:.5rem; z-index:999; }
+
+    header.nav {
+      position: sticky; 
+      top: 0; 
+      backdrop-filter: saturate(160%) blur(8px);
+      background: color-mix(in oklab, var(--bg) 90%, transparent); 
+      border-bottom: 1px solid var(--soft);
+      z-index: 50;
+    }
+    .nav-inner { display:flex; align-items:center; justify-content:space-between; height: 64px; }
+    .brand { font-weight: 700; letter-spacing: .2px; font-size: 1.1rem; }
+    .nav-links { display:flex; gap:1rem; align-items:center; }
+    .nav-links a { 
+      padding:.5rem .7rem; 
+      border-radius:.5rem; 
+      font-weight: 500;
+      transition: background 0.2s ease;
+    }
+    .nav-links a:hover { background: var(--card); text-decoration:none; }
+    .theme-toggle { 
+      border:none; 
+      background: var(--card); 
+      border:1px solid var(--soft); 
+      border-radius: .6rem; 
+      padding:.45rem .6rem; 
+      cursor:pointer; 
+      display:flex; 
+      align-items:center; 
+      gap:.5rem; 
+      transition: all 0.2s ease;
+    }
+    .theme-toggle:hover { background: var(--soft); }
+
+    /* ====== Hero ====== */
+    .hero { padding: 3rem 0 2rem; }
+    .hero-inner { 
+      display:flex; 
+      align-items:flex-start;
+      gap:1.5rem; 
+    }
+    .avatar { 
+      width: 120px; 
+      height: 120px; 
+      border-radius: 20px; 
+      border:2px solid var(--soft); 
+      background: linear-gradient(180deg, #e5faf8, #fcfffe); 
+      overflow:hidden;
+      box-shadow: 0 4px 12px var(--shadow);
+      flex-shrink: 0;
+    }
+    [data-theme="dark"] .avatar { background: linear-gradient(180deg, #0f201e, #0a0f0f); }
+    .avatar img { 
+      width:100%; 
+      height:100%; 
+      object-fit: cover; 
+      object-position: center; 
+      display:block; 
+    }
+    .hero-content {
+      flex: 1;
+      padding-top: 0.5rem;
+    }
+    .title { 
+      font-size: clamp(1.75rem, 1.2rem + 2.2vw, 2.6rem); 
+      margin: 0 0 .5rem; 
+      line-height: 1.1; 
+      font-weight: 700;
+    }
+    .subtitle { 
+      font-size: 1.2rem; 
+      margin: 0 0 .75rem; 
+      color: var(--muted);
+      font-weight: 500;
+    }
+    .research-areas {
+      margin: 0 0 1.25rem;
+      font-size: 1rem;
+    }
+    .cta { display:flex; gap:.75rem; flex-wrap:wrap; }
+
+    /* ====== Sections ====== */
+    section { padding: 2rem 0; }
+    section h2 { 
+      font-size: 1.4rem; 
+      margin: 0 0 1rem; 
+      letter-spacing:.3px; 
+      font-weight: 700;
+      color: var(--text);
+    }
+    .list { list-style: none; padding:0; margin:0; }
+    .list li + li { margin-top: 0.75rem; }
+
+    /* Timeline */
+    .timeline { border-left: 2px solid var(--soft); padding-left: 1rem; margin-left: .5rem; }
+    .tl-item { 
+      position: relative; 
+      margin: 0 0 1rem; 
+      padding: .25rem 0;
+    }
+    .tl-item::before { 
+      content: ""; 
+      position: absolute; 
+      left: -1.25rem; 
+      top: .5rem; 
+      width: .6rem; 
+      height: .6rem; 
+      border-radius: 50%; 
+      background: var(--accent); 
+      box-shadow: 0 0 0 3px var(--bg), 0 0 0 5px var(--soft); 
+    }
+    .tl-item strong { color: var(--text); }
+    .tl-item .period { color: var(--accent); font-weight: 600; }
+    .tl-item .role { color: var(--muted); }
+
+    /* Publications */
+    .pub { 
+      display:grid; 
+      grid-template-columns: 1fr auto; 
+      gap:.75rem 1rem; 
+      align-items:start; 
+    }
+    .pub-title { 
+      margin:.2rem 0 .5rem; 
+      font-weight:600; 
+      line-height: 1.4;
+    }
+    .pub-venue { 
+      font-size:.95rem; 
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .pub-actions { 
+      display:flex; 
+      gap:.5rem; 
+      flex-wrap: wrap;
+    }
+    .pub .authors { 
+      color: var(--muted); 
+      font-size:.95rem; 
+      margin: .25rem 0;
+    }
+
+    /* Research Cards */
+    .research-card h3 {
+      margin: 0 0 .75rem;
+      font-size: 1.1rem;
+      color: var(--text);
+    }
+    .research-illustration {
+      margin: .5rem 0 1rem;
+      opacity: 0.8;
+    }
+
+    /* News Section */
+    .news-item {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+    }
+    .news-date {
+      font-weight: 600;
+      color: var(--accent);
+      white-space: nowrap;
+      min-width: 80px;
+    }
+
+    /* Footer */
+    footer { 
+      padding: 3rem 0 4rem; 
+      color: var(--muted); 
+      font-size: .95rem; 
+      border-top: 1px solid var(--soft);
+      margin-top: 2rem;
+    }
+
+    /* Code style */
+    pre { 
+      background: var(--code-bg); 
+      color: var(--code-fg); 
+      padding: 1rem; 
+      border-radius: .6rem; 
+      overflow:auto; 
+    }
+
+    /* ====== Mobile Responsiveness ====== */
+         @media (max-width: 768px) {
+       .container { width: min(1000px, 95vw); }
+       
+       .hero { padding: 2rem 0 1.5rem; }
+       .hero-inner { 
+         flex-direction: column; 
+         align-items: center;
+         gap: 1rem; 
+         text-align: center;
+       }
+       .hero-content {
+         padding-top: 0;
+       }
+       .avatar { 
+         width: 100px; 
+         height: 100px;
+       }
+      
+      .title { font-size: clamp(1.5rem, 1.2rem + 2vw, 2.2rem); }
+      .subtitle { font-size: 1.1rem; }
+      
+      .btn { padding:.6rem .85rem; font-size: .9rem; }
+      .card { padding: 1.25rem; }
+      
+      .grid.two, .grid.three { grid-template-columns: 1fr; }
+      
+      header.nav .nav-inner { padding-inline: .5rem; }
+      .nav-links { 
+        gap:.5rem; 
+        overflow-x:auto; 
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 2px;
+      }
+      .nav-links a { 
+        padding:.4rem .6rem; 
+        white-space: nowrap; 
+        font-size: .9rem;
+      }
+      
+      .pub { 
+        grid-template-columns: 1fr; 
+        gap: .5rem;
+      }
+      .pub-actions { 
+        justify-content: flex-start; 
+        margin-top: .5rem;
+      }
+      
+             section { padding: 1.5rem 0; }
+       section h2 { font-size: 1.3rem; }
+       
+       .timeline { padding-left: 0.75rem; }
+       .tl-item { margin: 0 0 0.75rem; }
+       .tl-item::before { left: -1rem; }
+    }
+
+         @media (max-width: 480px) {
+       .container { width: min(1000px, 96vw); }
+       .hero { padding: 1.5rem 0 1rem; }
+       .card { padding: 1rem; }
+       .cta { gap: .5rem; }
+       .btn { padding: .55rem .75rem; }
+       
+       section { padding: 1.25rem 0; }
+       .timeline { padding-left: 0.5rem; }
+       .tl-item { margin: 0 0 0.5rem; padding: .15rem 0; }
+       .tl-item::before { left: -0.8rem; width: .5rem; height: .5rem; top: .35rem; }
+     }
+
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sheng Xu",
+    "jobTitle": "PhD Student",
+    "affiliation": {"@type": "Organization", "name": "Fudan University"},
+    "url": "https://sxu99.github.io",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=9ttWLMgAAAAJ",
+      "https://orcid.org/0000-0002-6507-9122",
+      "https://github.com/sxu99"
+    ]
+  }
+  </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "name": "Sheng Xu",
+      "alternateName": "许晟",
+      "url": "https://sxu99.github.io/",
+      "image": "https://sxu99.github.io/images/avator.jpeg",
+      "email": "mailto:shengxu@link.cuhk.edu.hk",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fudan University"
+      },
+      "jobTitle": "PhD Student",
+      "sameAs": [
+        "https://github.com/sxu99",
+        "https://scholar.google.com/",
+        "https://orcid.org/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "url": "https://sxu99.github.io/",
+      "name": "Sheng Xu — Academic Homepage",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Person",
+        "name": "Sheng Xu"
+      }
+    }
+  ]
+}
+</script>
+
+</head>
+<body>
+  <a href="#main" class="skip">Skip to content</a>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">Sheng Xu</div>
+              <nav class="nav-links" aria-label="Primary">
+          <a href="#research">Research</a>
+          <a href="#background">Experience</a>
+          <a href="#publications">Publications</a>
+          <a href="#preprints">Preprints</a>
+          <a href="#contact">Contact</a>
+        <button id="themeBtn" class="theme-toggle" type="button" aria-label="Toggle theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v2m0 14v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42M12 8a4 4 0 100 8 4 4 0 000-8z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <span class="muted" id="themeLabel">Light</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="avatar" aria-hidden="true">
+          <img alt="Portrait of Sheng Xu" src="https://sxu99.github.io/images/avator.jpeg" />
+        </div>
+        <div class="hero-content">
+          <h1 class="title">Sheng Xu</h1>
+          <p class="subtitle">PhD Student in Computational Biology</p>
+          <p class="research-areas muted">AI for Molecular Biology • Computational Virology • Language Models</p>
+          <div class="cta">
+            <a class="btn primary" href="#contact">Get in Touch</a>
+            <a class="btn" href="#publications">Publications</a>
+            <a class="btn" href="https://scholar.google.com/citations?user=9ttWLMgAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== News ===== -->
+    <section id="news" aria-labelledby="news-h">
+      <h2 id="news-h">Recent News</h2>
+      <div class="card">
+        <div class="timeline">
+          <div class="tl-item">
+            <span class="period">May 2025</span> — <em>FoldBench</em> preprint released on bioRxiv, introducing a comprehensive all-atom benchmark for structure prediction methods.
+          </div>
+          <div class="tl-item">
+            <span class="period">May 2025</span> — <em>CRAFTS</em> published in <em>Science</em>. 🎉
+          </div>
+          <div class="tl-item">
+            <span class="period">Jan 2025</span> — <em>π‑PrimeNovo</em> published in <em>Nature Communications</em>. 🎉
+          </div>
+          <div class="tl-item">
+            <span class="period">Apr 2024</span> — <em>SSBlazer</em> published in <em>Genome Biology</em>. Many thanks to all collaborators! 🎉
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Research ===== -->
+    <section id="research" aria-labelledby="research-h">
+      <h2 id="research-h">Research Interests</h2>
+      <div class="grid two">
+        <div class="card research-card">
+          <h3>Virus Discovery & Host Prediction</h3>
+          <div class="research-illustration muted">
+            <svg viewBox="0 0 600 160" role="img" aria-label="Virus-host interaction network" style="width:100%;height:auto;display:block">
+              <defs>
+                <linearGradient id="virusGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.8"/>
+                  <stop offset="100%" stop-color="var(--accent-ink)" stop-opacity="0.6"/>
+                </linearGradient>
+                <filter id="glow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge> 
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/> 
+                  </feMerge>
+                </filter>
+              </defs>
+              <!-- Host cells -->
+              <g fill="none" stroke="var(--soft)" stroke-width="1.5" opacity="0.7">
+                <circle cx="80" cy="60" r="35" stroke-dasharray="3,2"/>
+                <circle cx="320" cy="80" r="40" stroke-dasharray="3,2"/>
+                <circle cx="520" cy="70" r="38" stroke-dasharray="3,2"/>
+              </g>
+              <!-- Viral particles -->
+              <g fill="url(#virusGrad)" filter="url(#glow)">
+                <polygon points="60,80 70,65 90,65 100,80 90,95 70,95" opacity="0.9"/>
+                <polygon points="300,100 310,85 330,85 340,100 330,115 310,115" opacity="0.8"/>
+                <polygon points="500,90 510,75 530,75 540,90 530,105 510,105" opacity="0.9"/>
+              </g>
+              <!-- Connection lines -->
+              <g stroke="var(--accent)" stroke-width="2" opacity="0.6">
+                <path d="M100 80 Q200 60 300 100" fill="none" stroke-dasharray="5,3"/>
+                <path d="M340 100 Q420 85 500 90" fill="none" stroke-dasharray="5,3"/>
+              </g>
+              <!-- DNA/RNA strands -->
+              <g stroke="var(--accent-ink)" stroke-width="1.5" fill="none" opacity="0.5">
+                <path d="M150 40 Q180 35 210 40 Q240 45 270 40"/>
+                <path d="M350 130 Q380 125 410 130 Q440 135 470 130"/>
+              </g>
+            </svg>
+          </div>
+          <p class="muted">Developing foundation models for viral genome analysis, integrating structure, ecology, and host factors. Building scalable pipelines for metagenomic mining and zoonotic risk assessment.</p>
+          <div>
+            <span class="chip">Viral Language Models</span>
+            <span class="chip">Zoonosis Prediction</span>
+            <span class="chip">Metagenomics</span>
+            <span class="chip">Risk Assessment</span>
+          </div>
+        </div>
+        <div class="card research-card">
+          <h3>Structure Prediction & Design</h3>
+          <div class="research-illustration muted">
+            <svg viewBox="0 0 600 160" role="img" aria-label="Protein structure and design" style="width:100%;height:auto;display:block">
+              <defs>
+                <linearGradient id="proteinGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.9"/>
+                  <stop offset="50%" stop-color="var(--accent-ink)" stop-opacity="0.7"/>
+                  <stop offset="100%" stop-color="var(--accent)" stop-opacity="0.9"/>
+                </linearGradient>
+                <filter id="proteinGlow">
+                  <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+                  <feMerge> 
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/> 
+                  </feMerge>
+                </filter>
+              </defs>
+              <!-- Main protein backbone -->
+              <path d="M20 110 C 100 20, 160 20, 220 110 S 360 200, 430 110 S 550 20, 580 110" 
+                    fill="none" stroke="url(#proteinGrad)" stroke-width="6" filter="url(#proteinGlow)"/>
+              <!-- Secondary structure elements -->
+              <g fill="none" stroke="var(--accent-ink)" stroke-width="3" opacity="0.6">
+                <!-- Alpha helixes -->
+                <path d="M80 80 Q120 60 160 80 Q200 100 240 80" stroke-dasharray="2,2"/>
+                <path d="M380 130 Q420 110 460 130 Q500 150 540 130" stroke-dasharray="2,2"/>
+              </g>
+              <!-- Beta sheets -->
+              <g fill="var(--soft)" stroke="var(--accent)" stroke-width="1.5" opacity="0.5">
+                <rect x="140" y="95" width="40" height="8" rx="2"/>
+                <rect x="190" y="105" width="40" height="8" rx="2"/>
+                <rect x="340" y="85" width="35" height="8" rx="2"/>
+                <rect x="385" y="95" width="35" height="8" rx="2"/>
+              </g>
+              <!-- Active sites -->
+              <g fill="var(--accent)" opacity="0.8">
+                <circle cx="220" cy="110" r="8"/>
+                <circle cx="430" cy="110" r="8"/>
+              </g>
+              <!-- Binding pockets -->
+              <g fill="none" stroke="var(--accent-ink)" stroke-width="2" opacity="0.4" stroke-dasharray="3,3">
+                <circle cx="220" cy="110" r="25"/>
+                <circle cx="430" cy="110" r="25"/>
+              </g>
+            </svg>
+          </div>
+          <p class="muted">Creating comprehensive benchmarks for all-atom structure prediction models. Developing generative approaches for protein design, antibody engineering, and molecular therapeutics with robust uncertainty quantification.</p>
+          <div>
+            <span class="chip">FoldBench</span>
+            <span class="chip">Antibody Design</span>
+            <span class="chip">Diffusion Models</span>
+            <span class="chip">Uncertainty Quantification</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section id="background" aria-labelledby="background-h">
+      <h2 id="background-h">Experience</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3 style="margin: 0 0 1rem; font-size: 1.1rem;">Education</h3>
+          <div class="timeline">
+            <div class="tl-item">
+              <div><strong>Fudan University</strong></div>
+              <div class="period">2023 – present</div>
+              <div class="role">PhD in Biomedical Engineering</div>
+            </div>
+            <div class="tl-item">
+              <div><strong>The Chinese University of Hong Kong</strong></div>
+              <div class="period">2021 – 2022</div>
+              <div class="role">MSc in Computer Science</div>
+            </div>
+            <div class="tl-item">
+              <div><strong>East China Normal University</strong></div>
+              <div class="period">2017 – 2021</div>
+              <div class="role">BEng in Software Engineering</div>
+            </div>
+          </div>
+        </div>
+                  <div class="card">
+            <h3 style="margin: 0 0 1rem; font-size: 1.1rem;">Employment</h3>
+            <div class="timeline">
+              <div class="tl-item">
+                <div><strong>Shanghai Artificial Intelligence Laboratory</strong></div>
+                <div class="period">2022 – present</div>
+                <div class="role">Research Intern</div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- ===== Publications ===== -->
+    <section id="publications" aria-labelledby="pubs-h">
+      <h2 id="pubs-h">Selected Publications</h2>
+      <ol class="list">
+
+        <li class="card pub">
+          <div>
+            <div class="pub-title"><a href="https://arxiv.org/abs/2506.13485" target="_blank" rel="noopener">Curriculum Learning for Biological Sequence Prediction: The Case of De Novo Peptide Sequencing</a></div>
+            <div class="authors">X. Zhang, J. Wei, Z. Qiu, <strong>S. Xu</strong>, et al.</div>
+            <div class="pub-venue">ICML 2025</div>
+          </div>
+          <div class="pub-actions">
+            <a class="btn" href="https://arxiv.org/abs/2506.13485" target="_blank" rel="noopener">Paper</a>
+          </div>
+        </li>
+
+        <li class="card pub">
+          <div>
+            <div class="pub-title"><a href="https://arxiv.org/abs/2505.17552" target="_blank" rel="noopener">Universal Biological Sequence Reranking for Improved De Novo Peptide Sequencing</a></div>
+            <div class="authors">Z. Qiu, J. Wei, X. Zhang, <strong>S. Xu</strong>, et al.</div>
+            <div class="pub-venue">ICML 2025</div>
+          </div>
+          <div class="pub-actions">
+            <a class="btn" href="https://arxiv.org/abs/2505.17552" target="_blank" rel="noopener">Paper</a>
+            <a class="btn" href="https://github.com/BEAM-Labs/denovo" target="_blank" rel="noopener">Code</a>
+          </div>
+        </li>
+
+        <li class="card pub">
+          <div>
+            <div class="pub-title"><a href="https://www.science.org/doi/10.1126/science.adv3451" target="_blank" rel="noopener">Cryo‑EM reveals mechanisms of natural RNA multivalency</a></div>
+            <div class="authors">L. Wang*, J. Xie*, T. Gong*, H. Wu*, Y. Tu*, X. Peng*, S. Shang*, X. Jia*, H. Ma*, J. Zou*, <strong>S. Xu*</strong>, et al.</div>
+            <div class="pub-venue">Science, 2025</div>
+          </div>
+          <div class="pub-actions">
+            <a class="btn" href="https://pubmed.ncbi.nlm.nih.gov/40080543/" target="_blank" rel="noopener">Paper</a>
+          </div>
+        </li>
+
+        <li class="card pub">
+          <div>
+            <div class="pub-title"><a href="https://www.nature.com/articles/s41587-024-02353-6" target="_blank" rel="noopener">Fast, sensitive detection of protein homologs using deep dense retrieval</a></div>
+            <div class="authors">L. Hong, Z. Hu, S. Sun, X. Tang, J. Wang, Q. Tan, L. Zheng, S. Wang, <strong>S. Xu</strong>, et al.</div>
+            <div class="pub-venue">Nature Biotechnology, 2025</div>
+          </div>
+          <div class="pub-actions">
+            <a class="btn" href="https://www.nature.com/articles/s41587-024-02353-6" target="_blank" rel="noopener">Paper</a>
+            <a class="btn" href="https://github.com/ml4bio/Dense-Homolog-Retrieval" target="_blank" rel="noopener">Code</a>
+          </div>
+        </li>
+
+        <li class="card pub">
+          <div>
+            <div class="pub-title"><a href="https://www.nature.com/articles/s41467-024-55021-3" target="_blank" rel="noopener">π‑PrimeNovo: an accurate and efficient non‑autoregressive deep learning model for de novo peptide sequencing</a></div>
+            <div class="authors">X. Zhang*, T. Ling*, Z. Jin*, <strong>S. Xu*</strong>, et al.</div>
+            <div class="pub-venue">Nature Communications, 2025</div>
+          </div>
+          <div class="pub-actions">
+            <a class="btn" href="https://www.nature.com/articles/s41467-024-55021-3" target="_blank" rel="noopener">Paper</a>
+            <a class="btn" href="https://github.com/PHOENIXcenter/pi-PrimeNovo" target="_blank" rel="noopener">Code</a>
+          </div>
+        </li>
+
+        <li class="card pub">
+          <div>
+            <div class="pub-title"><a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03179-w" target="_blank" rel="noopener">SSBlazer: a genome-wide nucleotide-resolution model for predicting single-strand DNA breaks</a></div>
+            <div class="authors"><strong>S. Xu*</strong>, J. Wei*, et al.</div>
+            <div class="pub-venue">Genome Biology, 2024</div>
+          </div>
+          <div class="pub-actions">
+            <a class="btn" href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03179-w" target="_blank" rel="noopener">Paper</a>
+          </div>
+        </li>
+
+        <li class="card pub">
+          <div>
+            <div class="pub-title"><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/a8ea503d91320fcfe12cba61c8a6d285-Abstract-Datasets_and_Benchmarks_Track.html" target="_blank" rel="noopener">Beacon: Benchmark for comprehensive RNA tasks and language models</a></div>
+            <div class="authors">Y. Ren, Z. Chen, L. Qiao, H. Jing, Y. Cai, <strong>S. Xu</strong>, et al.</div>
+            <div class="pub-venue">NeurIPS 2024</div>
+          </div>
+          <div class="pub-actions">
+            <a class="btn" href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/a8ea503d91320fcfe12cba61c8a6d285-Abstract-Datasets_and_Benchmarks_Track.html" target="_blank" rel="noopener">Paper</a>
+          </div>
+        </li>
+
+        <li class="card pub">
+          <div>
+            <div class="pub-title"><a href="https://academic.oup.com/bib/article/25/4/bbae245/7682462" target="_blank" rel="noopener">Accurate prediction of antibody function and structure using a bio‑inspired antibody language model</a></div>
+            <div class="authors">H. Jing, Z. Gao, <strong>S. Xu</strong>, et al.</div>
+            <div class="pub-venue">Briefings in Bioinformatics, 2024</div>
+          </div>
+          <div class="pub-actions">
+            <a class="btn" href="https://academic.oup.com/bib/article/25/4/bbae245/7682462" target="_blank" rel="noopener">Paper</a>
+            <a class="btn" href="https://github.com/BEAM-Labs/BALM" target="_blank" rel="noopener">Code</a>
+          </div>
+        </li>
+
+        <li class="card pub">
+          <div>
+            <div class="pub-title"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/28044" target="_blank" rel="noopener">CrossBind: Collaborative cross‑modal identification of protein nucleic‑acid‑binding residues</a></div>
+            <div class="authors">L. Jing*, <strong>S. Xu*</strong>, et al.</div>
+            <div class="pub-venue">AAAI 2024</div>
+          </div>
+          <div class="pub-actions">
+            <a class="btn" href="https://ojs.aaai.org/index.php/AAAI/article/view/28044" target="_blank" rel="noopener">Paper</a>
+            <a class="btn" href="https://github.com/BEAM-Labs/CrossBind" target="_blank" rel="noopener">Code</a>
+          </div>
+        </li>
+
+        <li class="card pub">
+          <div>
+            <div class="pub-title"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/27765" target="_blank" rel="noopener">ContraNovo: a contrastive learning approach to enhance de novo peptide sequencing</a></div>
+            <div class="authors">Z. Jin*, <strong>S. Xu*</strong>, et al.</div>
+            <div class="pub-venue">AAAI 2024</div>
+          </div>
+          <div class="pub-actions">
+            <a class="btn" href="https://ojs.aaai.org/index.php/AAAI/article/view/27765" target="_blank" rel="noopener">Paper</a>
+            <a class="btn" href="https://github.com/BEAM-Labs/ContraNovo" target="_blank" rel="noopener">Code</a>
+          </div>
+        </li>
+        <li class="card pub">
+          <div>
+            <div class="pub-title"><a href="https://www.scienceopen.com/hosted-document?doi=10.15212/AMM-2024-0047" target="_blank" rel="noopener">AF2‑Mutation: adversarial sequence mutations against AlphaFold2 on protein tertiary structure prediction</a></div>
+            <div class="authors">Z. Yuan, T. Shen, <strong>S. Xu</strong>, et al.</div>
+            <div class="pub-venue">Acta Materia Medica, 2024</div>
+          </div>
+          <div class="pub-actions">
+            <a class="btn" href="https://www.scienceopen.com/hosted-document?doi=10.15212/AMM-2024-0047" target="_blank" rel="noopener">Paper</a>
+          </div>
+        </li>
+        <li class="card pub">
+          <div>
+            <div class="pub-title"><a href="https://academic.oup.com/bioinformatics/article/39/5/btad259/7135832" target="_blank" rel="noopener">AcrNET: predicting anti‑CRISPR with deep learning</a></div>
+            <div class="authors">Y. Li, Y. Wei, <strong>S. Xu</strong>, et al.</div>
+            <div class="pub-venue">Bioinformatics, 2023</div>
+          </div>
+          <div class="pub-actions">
+            <a class="btn" href="https://academic.oup.com/bioinformatics/article/39/5/btad259/7135832" target="_blank" rel="noopener">Paper</a>
+          </div>
+        </li>
+
+      </ol>
+    </section>
+
+    <section id="preprints" aria-labelledby="preprints-h">
+      <h2 id="preprints-h">Preprints & Working Papers</h2>
+      <ol class="list">
+        <li class="card pub">
+          <div>
+            <div class="pub-title"><a href="https://arxiv.org/abs/2508.02137" target="_blank" rel="noopener">Fitness aligned structural modeling enables scalable virtual screening with AuroBind</a></div>
+            <div class="authors">Z. Zhang, J. Rao, J. Zhong, W. Bai, D. Wang, S. Ning, L. Qiao, <strong>S. Xu</strong>, et al.</div>
+            <div class="pub-venue">arXiv, 2025</div>
+          </div>
+          <div class="pub-actions">
+            <a class="btn" href="https://arxiv.org/abs/2508.02137" target="_blank" rel="noopener">Paper</a>
+          </div>
+        </li>
+
+        <li class="card pub">
+          <div>
+            <div class="pub-title"><a href="https://www.biorxiv.org/content/10.1101/2025.05.27.646436v1" target="_blank" rel="noopener">FoldBench: An all‑atom benchmark for biomolecular structure prediction</a></div>
+            <div class="authors"><strong>S. Xu*</strong>, Q. Feng*, L. Qiao, H. Wu, T. Shen, Y. Cheng, S. Zheng, S. Sun</div>
+            <div class="pub-venue">bioRxiv, 2025</div>
+          </div>
+          <div class="pub-actions">
+            <a class="btn" href="https://www.biorxiv.org/content/10.1101/2025.05.27.646436v1" target="_blank" rel="noopener">Paper</a>
+          </div>
+        </li>
+
+        <li class="card pub">
+          <div>
+            <div class="pub-title"><a href="https://www.biorxiv.org/content/10.1101/2024.05.27.595311v1" target="_blank" rel="noopener">RTM‑align: an improved RNA alignment tool with enhanced short sequence performance via post‑standardization and fragment alignment</a></div>
+            <div class="authors">Z. Qiu*, <strong>S. Xu*</strong>, J. Wei, T. Shen, S. Sun</div>
+            <div class="pub-venue">bioRxiv, 2024</div>
+          </div>
+          <div class="pub-actions">
+            <a class="btn" href="https://www.biorxiv.org/content/10.1101/2024.05.27.595311v1" target="_blank" rel="noopener">Paper</a>
+          </div>
+        </li>
+
+
+      </ol>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" aria-labelledby="contact-h">
+      <h2 id="contact-h">Contact & Collaboration</h2>
+        <div class="card">
+          <p>I am always open to discussions about research collaborations, particularly in the areas of virus discovery, biomolecular AI, and computational biology. Feel free to reach out if you're interested in working together or have questions about my research.</p>
+          <p style="margin: 1.5rem 0;"><strong>Email:</strong> <a href="mailto:shengxu@link.cuhk.edu.hk">shengxu@link.cuhk.edu.hk</a> • <strong>ORCID:</strong> <a href="https://orcid.org/0000-0002-6507-9122" target="_blank" rel="noopener">0000-0002-6507-9122</a></p>
+          <div class="cta">
+            <a class="btn" href="https://github.com/sxu99" target="_blank" rel="noopener" aria-label="GitHub Profile">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+              GitHub
+            </a>
+            <a class="btn" href="https://scholar.google.com/citations?user=9ttWLMgAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar Profile">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
+              </svg>
+              Google Scholar
+            </a>
+            <a class="btn" href="https://www.linkedin.com/in/sheng-xu-20067b1bb/" target="_blank" rel="noopener" aria-label="LinkedIn Profile">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div>© <span id="year"></span> Sheng Xu • Last updated <span id="updated">September 2025</span></div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // Theme toggle with localStorage persistence
+    const btn = document.getElementById('themeBtn');
+    const label = document.getElementById('themeLabel');
+    const root = document.documentElement;
+
+    const applyTheme = (mode) => {
+      root.setAttribute('data-theme', mode);
+      label.textContent = mode === 'dark' ? 'Dark' : 'Light';
+      try { localStorage.setItem('theme', mode); } catch {}
+    };
+
+    const saved = (() => { try { return localStorage.getItem('theme'); } catch { return null; } })();
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    applyTheme(saved || (prefersDark ? 'dark' : 'light'));
+
+    btn.addEventListener('click', () => {
+      const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+    });
+
+    // Dynamic year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
