@@ -217,6 +217,20 @@
     }
     .list { list-style: none; padding:0; margin:0; }
     .list li + li { margin-top: 0.75rem; }
+    .meta-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 0.75rem 1.5rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .meta-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+    .meta-item span { font-weight: 600; }
 
     /* Timeline */
     .timeline { border-left: 2px solid var(--soft); padding-left: 1rem; margin-left: .5rem; }
@@ -440,6 +454,7 @@
     <div class="container nav-inner">
       <div class="brand">Sheng Xu</div>
               <nav class="nav-links" aria-label="Primary">
+          <a href="#about">About</a>
           <a href="#research">Research</a>
           <a href="#background">Experience</a>
           <a href="#publications">Publications</a>
@@ -473,6 +488,31 @@
       </div>
     </section>
 
+    <!-- ===== About ===== -->
+    <section id="about" aria-labelledby="about-h">
+      <h2 id="about-h">About</h2>
+      <div class="grid two">
+        <div class="card">
+          <p>
+            I am a PhD student at Fudan University working on computational methods that connect biological
+            sequences, structures, and function. My research focuses on foundation models for biomolecules,
+            with applications in virus discovery, protein design, and sequence understanding.
+          </p>
+          <p class="muted">
+            I value rigorous benchmarking, reproducible research, and open collaboration.
+          </p>
+        </div>
+        <div class="card">
+          <ul class="meta-list">
+            <li class="meta-item"><span>Affiliation</span>Fudan University</li>
+            <li class="meta-item"><span>Position</span>PhD Student</li>
+            <li class="meta-item"><span>Research Areas</span>Computational Biology, Molecular AI</li>
+            <li class="meta-item"><span>Email</span><a href="mailto:shengxu@link.cuhk.edu.hk">shengxu@link.cuhk.edu.hk</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
     <!-- ===== News ===== -->
     <section id="news" aria-labelledby="news-h">
       <h2 id="news-h">Recent News</h2>
@@ -482,13 +522,13 @@
             <span class="period">Dec 2025</span> — <em>FoldBench</em> published in <em>Nature Communications</em>, presenting the first all-atom benchmark for structure prediction methods.
           </div>
           <div class="tl-item">
-            <span class="period">May 2025</span> — <em>CRAFTS</em> published in <em>Science</em>. 🎉
+            <span class="period">May 2025</span> — <em>CRAFTS</em> published in <em>Science</em>.
           </div>
           <div class="tl-item">
-            <span class="period">Jan 2025</span> — <em>π‑PrimeNovo</em> published in <em>Nature Communications</em>. 🎉
+            <span class="period">Jan 2025</span> — <em>π‑PrimeNovo</em> published in <em>Nature Communications</em>.
           </div>
           <div class="tl-item">
-            <span class="period">Apr 2024</span> — <em>SSBlazer</em> published in <em>Genome Biology</em>. Many thanks to all collaborators! 🎉
+            <span class="period">Apr 2024</span> — <em>SSBlazer</em> published in <em>Genome Biology</em>.
           </div>
         </div>
       </div>
@@ -606,7 +646,7 @@
 
     <!-- ===== Experience ===== -->
     <section id="background" aria-labelledby="background-h">
-      <h2 id="background-h">Experience</h2>
+      <h2 id="background-h">Education & Experience</h2>
       <div class="grid two">
         <div class="card">
           <h3 style="margin: 0 0 1rem; font-size: 1.1rem;">Education</h3>
@@ -628,16 +668,16 @@
             </div>
           </div>
         </div>
-                  <div class="card">
-            <h3 style="margin: 0 0 1rem; font-size: 1.1rem;">Employment</h3>
-            <div class="timeline">
-              <div class="tl-item">
-                <div><strong>Shanghai Artificial Intelligence Laboratory</strong></div>
-                <div class="period">2022 – present</div>
-                <div class="role">Research Intern</div>
-              </div>
+        <div class="card">
+          <h3 style="margin: 0 0 1rem; font-size: 1.1rem;">Employment</h3>
+          <div class="timeline">
+            <div class="tl-item">
+              <div><strong>Shanghai Artificial Intelligence Laboratory</strong></div>
+              <div class="period">2022 – present</div>
+              <div class="role">Research Intern</div>
             </div>
           </div>
+        </div>
       </div>
     </section>
 
@@ -886,7 +926,7 @@
 
     <footer>
       <div class="container">
-        <div>© <span id="year"></span> Sheng Xu • Last updated <span id="updated">December 2025</span></div>
+        <div>© <span id="year"></span> Sheng Xu • Last updated <span id="updated">March 2026</span></div>
       </div>
     </footer>
   </main>
