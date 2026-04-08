@@ -178,6 +178,9 @@
     /* ── RESEARCH AREAS ── */
     .research-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
     .research-item {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
       padding: 2rem;
       border-radius: 16px;
       background: var(--surface);
@@ -190,7 +193,7 @@
       margin-bottom: 0.75rem; color: var(--text);
     }
     .research-item p { font-size: 0.925rem; color: var(--text-secondary); line-height: 1.6; }
-    .tag-row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1rem; }
+    .tag-row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: auto; padding-top: 1rem; }
     .tag {
       font-size: 0.75rem; font-weight: 500;
       padding: 0.25rem 0.6rem; border-radius: 100px;
@@ -274,12 +277,13 @@
       .nav-links { gap: 0; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
       .nav-links::-webkit-scrollbar { display: none; }
       .nav-links a { font-size: 0.78rem; padding: 0.35rem 0.45rem; white-space: nowrap; }
-      .hero { padding: 2.5rem 0 2rem; }
+      .hero { padding: 1.25rem 0 2rem; }
       .hero-grid {
         grid-template-columns: 1fr;
+        gap: 1.25rem;
         text-align: center;
       }
-      .avatar-wrap { width: 100px; height: 100px; margin: 0 auto 0.75rem; order: -1; }
+      .avatar-wrap { width: 128px; height: 128px; margin: 0 auto 0.25rem; order: -1; }
       .hero .links { justify-content: center; }
       .info-row { flex-direction: column; gap: 0; text-align: left; }
       .info-row dt { min-width: unset; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--accent); }
@@ -330,7 +334,7 @@
             <div class="links">
               <a class="pill" href="https://scholar.google.com/citations?user=9ttWLMgAAAAJ" target="_blank" rel="noopener">
                 <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
-                Google Scholar
+                Scholar
               </a>
               <a class="pill" href="https://github.com/sxu99" target="_blank" rel="noopener">
                 <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
@@ -358,12 +362,12 @@
         <h2>Focus areas</h2>
         <div class="research-grid">
           <div class="research-item">
-            <h3>Computational Virology</h3>
-            <p>Foundation models for viral genome analysis, integrating structure, ecology, and host factors. Scalable pipelines for metagenomic mining and zoonotic risk assessment.</p>
+            <h3>Agent-Driven Scientific Discovery</h3>
+            <p>End-to-end agentic scientific discovery for virology, spanning viral metagenomics, host prediction, and large-scale analysis.</p>
             <div class="tag-row">
-              <span class="tag">Viral Language Models</span>
-              <span class="tag">Zoonosis Prediction</span>
-              <span class="tag">Metagenomics</span>
+              <span class="tag">Agentic Science</span>
+              <span class="tag">Viral Metagenomics</span>
+              <span class="tag">Host Prediction</span>
             </div>
           </div>
           <div class="research-item">
@@ -421,6 +425,18 @@
         <div class="section-label">Publications</div>
         <h2>Selected papers</h2>
         <ol class="pub-list">
+
+          <li class="pub-item">
+            <div>
+              <a class="pub-title-link" href="https://www.nature.com/articles/s41467-025-67127-3" target="_blank" rel="noopener">Benchmarking all-atom biomolecular structure prediction with FoldBench</a>
+              <div class="pub-authors"><strong>S. Xu*</strong>, Q. Feng*, L. Qiao, H. Wu, T. Shen, Y. Cheng, S. Zheng, S. Sun</div>
+              <span class="pub-venue">Nature Communications, 2026</span>
+            </div>
+            <div class="pub-btns">
+              <a class="pub-btn" href="https://www.nature.com/articles/s41467-025-67127-3" target="_blank" rel="noopener">Paper</a>
+              <a class="pub-btn" href="https://github.com/BEAM-Labs/FoldBench" target="_blank" rel="noopener">Code</a>
+            </div>
+          </li>
 
           <li class="pub-item">
             <div>
@@ -555,6 +571,42 @@
 
           <li class="pub-item">
             <div>
+              <a class="pub-title-link" href="https://arxiv.org/abs/2604.02842" target="_blank" rel="noopener">ViraHinter: a dual-modal artificial intelligence framework for predicting virus-host interactions</a>
+              <div class="pub-authors">W. Bai*, F. Wang*, J. Wang*, <strong>S. Xu*</strong>, et al.</div>
+              <span class="pub-venue">arXiv, 2026</span>
+            </div>
+            <div class="pub-btns"><a class="pub-btn" href="https://arxiv.org/abs/2604.02842" target="_blank" rel="noopener">Paper</a></div>
+          </li>
+
+          <li class="pub-item">
+            <div>
+              <a class="pub-title-link" href="https://www.biorxiv.org/content/10.64898/2026.03.17.712536v1.abstract" target="_blank" rel="noopener">SCALE: Scalable Conditional Atlas-Level Endpoint transport for virtual cell perturbation prediction</a>
+              <div class="pub-authors">S. Chen, L. Yu, K. Jin, S. Zhang, H. Wu, W. Huang, <strong>S. Xu</strong>, et al.</div>
+              <span class="pub-venue">bioRxiv, 2026</span>
+            </div>
+            <div class="pub-btns"><a class="pub-btn" href="https://www.biorxiv.org/content/10.64898/2026.03.17.712536v1.abstract" target="_blank" rel="noopener">Paper</a></div>
+          </li>
+
+          <li class="pub-item">
+            <div>
+              <a class="pub-title-link" href="https://arxiv.org/abs/2512.16969" target="_blank" rel="noopener">Probing Scientific General Intelligence of LLMs with Scientist-Aligned Workflows</a>
+              <div class="pub-authors">W. Xu, Y. Zhou, Y. Zhou, Q. Cao, S. Li, J. Bu, ..., <strong>S. Xu</strong>, et al.</div>
+              <span class="pub-venue">arXiv, 2025</span>
+            </div>
+            <div class="pub-btns"><a class="pub-btn" href="https://arxiv.org/abs/2512.16969" target="_blank" rel="noopener">Paper</a></div>
+          </li>
+
+          <li class="pub-item">
+            <div>
+              <a class="pub-title-link" href="https://arxiv.org/abs/2512.12272" target="_blank" rel="noopener">Accurate de novo sequencing of the modified proteome with OmniNovo</a>
+              <div class="pub-authors">Y. Chen, S. Qu, Z. Gao, Y. Yang, X. Zhang, <strong>S. Xu</strong>, et al.</div>
+              <span class="pub-venue">arXiv, 2025</span>
+            </div>
+            <div class="pub-btns"><a class="pub-btn" href="https://arxiv.org/abs/2512.12272" target="_blank" rel="noopener">Paper</a></div>
+          </li>
+
+          <li class="pub-item">
+            <div>
               <span class="pub-title-link" style="cursor:default">A genome-scale language model uncovers animal viruses with zoonotic potential</span>
               <div class="pub-authors"><strong>S. Xu</strong>, et al.</div>
               <span class="pub-venue">Submitted, 2025</span>
@@ -568,15 +620,6 @@
               <span class="pub-venue">arXiv, 2025</span>
             </div>
             <div class="pub-btns"><a class="pub-btn" href="https://arxiv.org/abs/2508.02137" target="_blank" rel="noopener">Paper</a></div>
-          </li>
-
-          <li class="pub-item">
-            <div>
-              <a class="pub-title-link" href="https://www.biorxiv.org/content/10.1101/2025.05.27.646436v1" target="_blank" rel="noopener">FoldBench: An all-atom benchmark for biomolecular structure prediction</a>
-              <div class="pub-authors"><strong>S. Xu*</strong>, Q. Feng*, L. Qiao, H. Wu, T. Shen, Y. Cheng, S. Zheng, S. Sun</div>
-              <span class="pub-venue">bioRxiv, 2025</span>
-            </div>
-            <div class="pub-btns"><a class="pub-btn" href="https://www.biorxiv.org/content/10.1101/2025.05.27.646436v1" target="_blank" rel="noopener">Paper</a></div>
           </li>
 
           <li class="pub-item">
@@ -600,9 +643,9 @@
         <div class="section-label">Get in touch</div>
         <h2>Contact</h2>
         <div class="contact-box">
-          <p>Open to discussions about research collaborations in virus discovery, protein design, and protein/genome language models.</p>
+          <p>Open to discussions about agent-driven scientific discovery, virus discovery from metagenomics, host prediction, and biomolecular foundation models.</p>
           <p style="margin-top: 0.75rem;">
-            <strong>Email:</strong> <a href="mailto:shengxu99@outlook.com">shengxu99@outlook.com</a>&ensp;·&ensp;
+            <strong>Email:</strong> <a href="mailto:shengxu@link.cuhk.edu.hk">shengxu@link.cuhk.edu.hk</a>&ensp;·&ensp;
             <strong>ORCID:</strong> <a href="https://orcid.org/0000-0002-6507-9122" target="_blank" rel="noopener">0000-0002-6507-9122</a>
           </p>
           <div class="contact-links">
